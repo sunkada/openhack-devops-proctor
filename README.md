@@ -1,3 +1,15 @@
+---
+page_type: sample
+languages:
+- tsql
+- csharp
+- html
+products:
+- azure
+description: "This repo contains the code for the provisioning of the resources necessary to execute a DevOps openhack event."
+urlFragment: openhack-devops-proctor
+---
+
 # DevOps Openhack Proctor Repository
 
 This repo contains the code for the provisioning of the resources necessary to execute a DevOps openhack event.  The relevant code individual teams use (i.e. the APIs) to complete their challenges can be found in the [DevOps Openhack Team repository](https://github.com/Azure-Samples/openhack-devops-team/).
