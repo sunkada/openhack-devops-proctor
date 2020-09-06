@@ -217,7 +217,7 @@ echo "2-Provision AKS  (bash ./provision_aks.sh -i $subscriptionId -g $resourceG
 bash ./provision_aks.sh -i $subscriptionId -g $resourceGroupTeam -c $clusterName -l $resourceGroupLocation -a $appId -n $azureUserName -p $azurePassword
 
 echo "5-Clone repo"
-bash ./git_fetch.sh -u https://github.com/sunkada/openhack-devops-team -s ./test_fetch_build
+bash ./git_fetch.sh -u https://github.com/azure-samples/openhack-devops-team -s ./test_fetch_build
 
 echo "6-Deploy ingress  (bash ./deploy_ingress_dns.sh -s ./test_fetch_build -l $resourceGroupLocation -n ${teamName}${teamNumber})"
 bash ./deploy_ingress_dns.sh -s ./test_fetch_build -l $resourceGroupLocation -n ${teamName}${teamNumber}
