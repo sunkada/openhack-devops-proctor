@@ -100,7 +100,7 @@
         "recipientEmail":"[parameters('recipientEmail')]",
         "ChatConnectionString" :"[parameters('ChatConnectionString')]",
         "ChatMessageQueue":"[parameters('ChatMessageQueue')]",
-        "teamName": "openhack",
+        "teamName": "DevOpsopenhackTeam",
         "imagePublisher": "Canonical",
         "imageOffer": "UbuntuServer",
         "skuversion": "latest",
