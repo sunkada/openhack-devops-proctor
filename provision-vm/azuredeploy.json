@@ -119,7 +119,7 @@
         "sshKeyPath": "[concat('/home/',parameters('adminUsername'),'/.ssh/authorized_keys')]",
         "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]",
         "gitBranch": "[parameters('gitBranch')]",
-        "gitUri": "[concat('https://github.com/sunkada/openhack-devops-proctor/',variables('gitBranch'),'/provision-vm/proctorVMSetup.sh')]"
+        "gitUri": "[concat('https://raw.githubusercontent.com/sunkada/openhack-devops-proctor/',variables('gitBranch'),'/provision-vm/proctorVMSetup.sh')]"
     },
     "resources": [
         {
