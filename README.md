@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/surao/979dae51-0fd4-41bb-8992-a0f4d653df39/ca26a3b8-5507-4221-95e6-93591fea985c/_apis/work/boardbadge/5b76fbce-125d-4217-b9cd-8fefd94e15da)](https://dev.azure.com/surao/979dae51-0fd4-41bb-8992-a0f4d653df39/_boards/board/t/ca26a3b8-5507-4221-95e6-93591fea985c/Microsoft.FeatureCategory)
 ---
 page_type: sample
 languages:
